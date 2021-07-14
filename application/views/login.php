@@ -1,41 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login</title>
-
-    <div class="container">
-    <header class="d-flex justify-content-center  py-3 mb-4 border-bottom">
-    <h1 class="mb-3 fw-normal">Admin Login</h1>
-    </header>
-  </div>
-
-  <link href="application\assets\login.css" rel="stylesheet">
-    </head>
-  <body class="text-center">
-  <div class="container">
-<main class="form-login">
-  <form>
-    <h1 class="h3 mb-3 fw-normal">LOGIN</h1>
-    <div class="container">
-    <div class="form-floating mb-3">
-      <input type="Usuario" class="form-control" id="floatingInput" placeholder="Usuario">
-      <label for="floatingInput">Usuario</label>
+<head>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min"></script>
+   
+</head>
+<body>
+ 
+  <section>
+   
+  
+  
+    <div class="peliculas">
+    <img src="assets/img/pop.png">
     </div>
-</div> 
-<div class="container-sm">
-    <div class="form-floating mb-3">
-      <input type="contraseña" class="form-control" id="floatingPassword" placeholder="Contraseña">
-      <label for="floatingPassword">Contraseña</label>
+    <div class="peliculas2">
+    <img src="assets/img/chocolate.png">
     </div>
-</div>
-    <button class="w-100 btn btn-lg btn btn-primary" type="submit">Entrar</button>
-    </form>
-</main>
-</div>
+        <article class="col-lg-8 col-md-6">
+         
+            <div class="container">
+              <h2>LOGIN</h2>
 
-    
-  </body>
+                <form method="POST" action="FrontEnd.html" onsubmit="return validar();" class="was-validated">
+
+                  <div class="form-group">
+                    <br>
+                    <input type="text" class="form-control" id="Usuario" placeholder="Usuario" name="Usuario" required>
+                    
+                  <div class="form-group">
+                    <br>
+                    <br>
+                    <input type="password" class="form-control" id="password" placeholder="Contraseña" name="passwword" required>
+                    <br>
+                    <br>
+                  <button type="submit" class="btn btn-primary">Entrar</button>
+                </form>
+              </div>
+        </article>
+
+    </section>
+<footer >
+        
+    </footer>
+</body>
 </html>
+<script src="assets/js/main.js"></script>
