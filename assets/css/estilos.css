@@ -1,0 +1,76 @@
+html {
+width: 100%;
+height: 100%;
+}
+
+body {
+    background-image: linear-gradient(95deg, #7294f5 0, #1f3259 50%, #000000 100%);}
+
+.peliculas{ 
+position:relative;
+top:100px;
+left:5%;
+width:100px;
+height:100px;
+object-fit: cover;
+}
+
+.peliculas2{
+position:relative;
+left:68%;
+width:100px;
+height:100px;
+object-fit: cover;
+}
+
+h2{
+padding:20px;
+text-align: center;
+font-weight:lighter;
+text-transform:uppercase;
+color:white;
+}
+
+.container{
+position:relative;
+left:25%;
+display:block;
+margin-bottom:80px;
+width:500px;
+height:400px;
+overflow:hidden;
+}
+
+.form-control {
+background-color:#dcdcde;
+color: red;
+border-radius: 10px;
+outline: none;
+display: block;
+width: 100%;
+border: 0;
+border:4px;
+box-sizing: border-box;
+padding: 15px;
+font-family:"bookman","serif";
+font-size: medium;
+font-weight:lighter;
+line-height: inherit;
+transition: 0.3s ease;
+}
+
+.btn-primary{  
+background-color:rgb(139, 38, 143);
+color:rgb(0, 0, 0);
+width: 100%;
+border: 0;   /*borde del botón */
+border-radius: 10px;  /* el redondeado de los bordes */
+padding:12px; /*distancia entre el texto y el borde del botón */
+font-family:"helvetica","didot","serif";
+font-size:medium;   /*el tamaño de la letra */ 
+font-weight:medium; /*grosor de las letras */
+line-height:center;
+text-transform: uppercase; 
+cursor: pointer;
+
+}
